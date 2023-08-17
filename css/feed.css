@@ -1,0 +1,32 @@
+  /* Feed */
+
+  /* Apply custom-feed styles */
+  .custom-feed {
+    flex: 0.6;
+    max-height: 100%;
+    overflow-y: auto;
+    scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  }
+
+  .custom-feed::-webkit-scrollbar {
+    display: none; /* For Chrome and Safari */
+  }
+
+  
+  .in-header{
+    background-color: white;
+    padding: 40px 10px 30px 10px;
+  }
+
+  .in-header .header-out {
+    float: right;
+  }
+
+  .header-out span{
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+  }
+  

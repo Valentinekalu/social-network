@@ -1,0 +1,17 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Base styles */
+  body {
+    font-family: -apple-system,Helvetica,Arial,sans-serif;
+    display: flex;
+    height: 100vh;
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: white;
+  }
+

@@ -1,0 +1,91 @@
+    /* Custom  Header */
+.custom-topbar-header {
+    position: fixed;
+    top: 0;
+    left: 0; /* Align to the left edge of the viewport */
+    right: 0; /* Align to the right edge of the viewport */
+    z-index: 1000;
+    background-color: white;
+    padding: 10px 10px 3px 0;
+    margin-bottom: 100px;
+}
+
+.feed-starts{
+    margin-top: 100px;
+  }
+
+  
+  .custom-topbar-header .in-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .custom-topbar-header .in-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .custom-topbar-header .header-out h4,
+  .custom-topbar-header .header-right h4 {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px;
+  }
+  
+
+
+/* Styles for the toggle icon */
+ .toggle-icon {
+    display: none;
+}
+
+/* Media query for mobile devices (adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+
+    .toggle-icon {
+        display: block;
+    }
+}
+
+
+@media (min-width: 770px) {
+    .logo {
+        display: block;
+    }
+
+    .toggle-button .toggle-icon {
+        display: none;
+    }
+}
+  
+    
+    /* Default styles for both logo and toggle icon */
+    .toggle-button {
+        font-size: 24px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+      }
+      
+      /* Styles for the logo image */
+      .logo {
+        max-width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        margin-left: 80px;
+      }
+      
+
+      .header-right .profile-image img {
+        max-width: 40px;
+        max-height: 40px;
+        border-radius: 50px;
+        margin-right: 5px;
+      }
