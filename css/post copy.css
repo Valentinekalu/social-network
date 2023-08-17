@@ -9,7 +9,7 @@
 
 
 .post-card-content {
-    padding: 10px 20px 20px 5px;
+    padding: 20px 20px 20px 5px;
     position: relative; /* Add this for positioning the pseudo-element */
 }
 
@@ -24,19 +24,13 @@
     margin-left: 10px;
 }
 
-.user-card , .post-user-image , .user-details {
+.post-user-details, .post-user-image, .user-details, .post-archiver {
     float: left;
 }
 
-.post-archiver {
+.post-archiver .date {
     font-size: 13px;
     text-align: right;
-    margin-right: 5px;
-}
-
-.stats, .stats p {
-    float: right;
-    margin-top: 4px;
 }
 
 .post-user-details .more-options {
@@ -45,11 +39,11 @@
     align-items: center; /* Vertically center the icon */
 }
 
-.post-user-image, .user-details {
+.post-user-image, .user-details, .post-archiver {
     margin-right: 10px;
 }
 
-.user-details   .verification-tick-individual , verification-tick-business {
+.user-details .verification-tick {
     float: right;
     display: flex;
     font-size: larger;
@@ -57,23 +51,15 @@
 }
 
 
-  .verification-tick-individual , verification-tick-business {
+.verification-tick {
     font-size: 5px;
+    color: #1da1f2;
     margin-right: 5px;
   }
 
-  .user-details  .verification-tick-individual , verification-tick-business{
+  .user-details  .verification-tick{
     font-size: 15px;
     margin-top: 3px;
-  }
-
-  .verification-tick-individual {
-    color: rgb(29, 155, 240);
-
-  }
-
-  .verification-tick-business {
-    color: rgb(172, 149, 23);
   }
 
   
@@ -88,10 +74,13 @@
   }
 
   .user-details h3 {
-    color: #0F1419;
     margin-bottom: 3px;
     font-size: 15px;
   }
+
+.verification-tick {
+    font-size: large;
+}
 
 .post-user-details {
     display: flex;
@@ -101,7 +90,7 @@
 
 .post-main-content{
     display: block;
-    margin-top: 5px;
+    margin-top: 50px;
     margin-left: 55px;
 }
 
