@@ -117,4 +117,10 @@ document.addEventListener("DOMContentLoaded", function () {
     updateSlider();
   }
   
-  
+      // Simulate loading delay (remove this in your actual implementation)
+      setTimeout(function() {
+        document.getElementById("preloader").style.display = "none";
+      }, 1000); // Adjust the delay time as needed
+      
+
+      

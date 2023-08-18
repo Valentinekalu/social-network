@@ -39,6 +39,7 @@
     margin-top: 4px;
 }
 
+
 .post-user-details .more-options {
     margin-left: auto; /* Push to the right end */
     display: flex; /* Align the icon to the right with flex layout */
@@ -122,11 +123,21 @@
     margin-top: 10px;
 }
 
-.post-content-footer {
+.post-content-footer  {
     display: flex;
     justify-content: space-between; /* Align items to both start and end */
     align-items: center; /* Vertically center items */
     margin: 10px 0 10px 0;
+}
+
+.footer-icons,  .stats-icon {
+  float: left;
+}
+
+ .stats-icon {
+  font-size: 15px;
+  margin-top: 4px;
+  padding-left: 5px;
 }
 
 
@@ -179,4 +190,9 @@
     background-color: #333;
   }
   
-  
+  /* Media query for mobile devices (adjust the breakpoint as needed) */
+@media (max-width: 768px) {
+  .post-content-footer .bookmark {
+    display: ;
+  }
+}

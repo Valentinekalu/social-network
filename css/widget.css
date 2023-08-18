@@ -13,7 +13,7 @@
   .custom-widgets-input {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 20px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -25,6 +25,7 @@
     outline: none;
     padding: 10px;
     width: 100%;
+    background-color: whitesmoke;
   }
   
   .custom-widgets-searchIcon {
@@ -33,8 +34,9 @@
   }
   
   .custom-widgets-widgetContainer h2 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
+    margin-bottom: 20px;
   }
   
   .custom-trending,
@@ -42,8 +44,8 @@
     margin-top: 15px;
   }
   
-  .custom-trending h3,
-  .custom-follow h3 {
+  .custom-trending h4,
+  .custom-follow h4 {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -88,31 +90,75 @@
 
   }
 
-  .custom-follow {
-    background-color: white;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-  }
-
-  .custom-follow-user img{
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    margin-right: 3px;
-  }
   
-  .custom-follow-button {
-    background-color: #1da1f2;
-    border: none;
-    color: white;
-    font-weight: bold;
-    padding: 8px 15px;
-    border-radius: 20px;
-    cursor: pointer;
-  }
+  
+
+  /* Styles for the "People to Follow" section */
+.custom-follow {
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 0 20px 0;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.custom-follow h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.custom-follow-user {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 10px 5px 10px 5px;
+  border-radius: 5px;
+}
+
+.custom-follow-user:hover {
+  background-color: whitesmoke;
+}
+
+.custom-follow-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.custom-follow-user h5 {
+  margin: 0;
+}
+
+.custom-follow-button {
+  font-size: 15px;
+  width: 80px;
+  margin-left: auto; /* This pushes the button to the right */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.show-more {
+  padding: 15px 0 0 15px;
+  color: #1da1f2;
+}
+
+.more-to-follow {
+  padding: 20px 0 20px 0;
+}
+
+.more-to-follow:hover {
+  background-color: whitesmoke;
+}
+
+
+
   
   @media (max-width: 300px) {
     .custom-widgets {
