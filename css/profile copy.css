@@ -1,0 +1,85 @@
+/* Style the profile content header */
+.profile-content-header {
+    background-color: #f5f5f5;
+}
+
+/* Style the profile header */
+.profile-header {
+    align-items: center;
+}
+
+/* Style the cover image */
+.cover-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the profile avatar */
+.profile-avatar {
+    margin: 0 20px;
+}
+
+/* Style the profile image */
+.main-profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Style the profile info */
+.profile-info {
+    flex: 1;
+}
+
+/* Style the profile name */
+.profile-name {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+/* Style the profile bio */
+.profile-bio {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* Style the location and joined info */
+.profile-location,
+.profile-joined {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+/* Style the icons */
+.material-icons {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+/* Style the profile stats */
+.profile-stats {
+    display: flex;
+}
+
+/* Style the following and followers count */
+.following-count,
+.followers-count {
+    margin-right: 20px;
+}
+
+/* Style the count number */
+.count {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Style the count label */
+.label {
+    font-size: 12px;
+    color: #888;
+}
